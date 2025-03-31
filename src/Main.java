@@ -21,7 +21,7 @@ public class Main {
         int quantidadeVendida = scanner.nextInt();
         produto.vender(quantidadeVendida);
 
-        System.out.println("\nInformações do produto após a venda");
+        System.out.println("\nInformações do produto após a venda:");
         produto.exibirInformacoes();
 
         scanner.close();
